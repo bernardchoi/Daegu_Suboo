@@ -9,7 +9,7 @@
             box-sizing:border-box;
         }
         body {
-            margin:0;
+            margin:0px;
             font-family:Helvetica;
         }
         .row {
@@ -26,50 +26,186 @@
             vertical-align:middle;
             width:100%;
         }
-        ul {
-            list-style:none;
-            padding-left:5px;
+        .logo img {
+            width:100%;
         }
         h2 {
             text-align:center;
+            padding-top:150px;
         }
-        a {
+        #topMenu {
+            height:100%;
+            width:100%;
+        }
+        #topMenu ul li {
+            list-style:none;
+            color:white;
+            background-color:navy;
+            float:left;
+            line-height:25px;
+            vertical-align:middle;
+            text-align:center;
+            padding:0px;
+        }
+        #topMenu .menuLink {
             text-decoration:none;
+            color:white;
+            display:block;
+            width:180px;
+            font-size:12px;
+            font-weight:bold;
+            font-family:Helvetica;
         }
-        @media(max-width:600px) {
+        #topMenu .menuLink:hover {
+            color:black;
+            background-color: aliceblue;
+        }
+/* iPhone Plus 해상도 */
+        @media(max-width:414px) {
             .logo h1 {
-                font-size:15px;
+                font-size:20px;
+                text-align:center;
             }
             .logo img {
-                width:100px;
-                height:100px;
+                width:100%;
             }
             ul {
-                font-size:12px;
-                padding-left:5px;
+                font-size:15px;
+                padding-left:0px;
             }
             h2 {
-                font-size:17px;
+                font-size:20px;
+                padding-top:70px;
             }
             .row {
                 display:block;
             }
-        }</style>
+            .logo h4 {
+                text-align:center;
+            }
+            #topMenu ul li {
+                list-style:none;
+                color:white;
+                background-color:navy;
+                float:left;
+                line-height:23px;
+                vertical-align:middle;
+                text-align:center;
+                padding:0px;
+            }
+            #topMenu .menuLink {
+                text-decoration:none;
+                color:white;
+                display:block;
+                width:207px;
+                font-size:12px;
+                font-weight:bold;
+                font-family:Helvetica;
+            }
+        }
+/* 아이폰 6, 6s, 7, 8 해상도 */
+        @media(max-width:375px) {
+            .logo h1 {
+                font-size:20px;
+                text-align:center;
+            }
+            .logo img {
+                width:100%;
+            }
+            ul {
+                font-size:15px;
+                padding-left:0px;
+            }
+            h2 {
+                font-size:20px;
+                padding-top:70px;
+            }
+            .row {
+                display:block;
+            }
+            .logo h4 {
+                text-align:center;
+            }
+            #topMenu ul li {
+                list-style:none;
+                color:white;
+                background-color:navy;
+                float:left;
+                line-height:20px;
+                vertical-align:middle;
+                text-align:center;
+                padding:0px;
+            }
+            #topMenu .menuLink {
+                text-decoration:none;
+                color:white;
+                display:block;
+                width:187px;
+                font-size:12px;
+                font-weight:bold;
+                font-family:Helvetica;
+            }
+        }
+/* 아이폰 5, 5s, SE 해상도 */
+                @media(max-width:320px) {
+            .logo h1 {
+                font-size:15px;
+                text-align:center;
+            }
+            .logo img {
+                width:100%;
+            }
+            ul {
+                font-size:15px;
+                padding-left:0px;
+            }
+            h2 {
+                font-size:20px;
+                padding-top:120px;
+            }
+            .row {
+                display:block;
+            }
+            .logo h4 {
+                text-align:center;
+            }
+            #topMenu ul li {
+                list-style:none;
+                color:white;
+                background-color:navy;
+                float:left;
+                line-height:20px;
+                vertical-align:middle;
+                text-align:center;
+                padding:0px;
+            }
+            #topMenu .menuLink {
+                text-decoration:none;
+                color:white;
+                display:block;
+                width:320px;
+                font-size:12px;
+                font-weight:bold;
+                font-family:Helvetica;
+            }
+        }
+</style>
 </head>
 <body>
     <div class="logo">
-        <p><h5>2018년 8월 15일 제 70권 31호</h5><img src="suboo_logo.jpg" width=150px; height=150px; align="right";><h1>대구서부교회에 오신 것을 환영합니다!</h1></p>
+        <p><h4>2018년 8월 15일 제 70권 31호</h4><img src="suboo_logo.png"><h1>대구서부교회에 오신 것을 환영합니다!</h1></p>
     </div>
-    <nav>
-    <ul>
-        <li><a href="1.html">주일 낮 예배</a></li>
-        <li><a href="2.html">주일찬양예배 및 수요기도예배</a></li>
-        <li><a href="3.html">지난주 설교요약</a></li>
-        <li><a href="4.html">교회행사</a></li>
-        <li><a href="5.html">헌금 및 하늘의 만나</a></li>
-        <li><a href="6.html">교회소식</a></li>
-    </ul>
+    <nav id="topMenu">
+        <ul>
+            <li><a class="menuLink" href="1.html">주일 낮 예배</a></li>
+            <li><a class="menuLink" href="2.html">주일찬양예배 및 수요기도예배</a></li>
+            <li><a class="menuLink" href="3.html">지난주 설교요약</a></li>
+            <li><a class="menuLink" href="4.html">교회행사</a></li>
+            <li><a class="menuLink" href="5.html">헌금 및 하늘의 만나</a></li>
+            <li><a class="menuLink" href="6.html">교회소식</a></li>
+        </ul>
     </nav>
+    </div>
     <h2>테스트용 제목</h2>
     <div class="row">
         <div class="column">

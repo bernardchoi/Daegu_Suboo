@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width">
     <title>Daegu Suboo Church</title>
     <style>
-        body > h1 {
+        body {
+            font-family:helvetica;
+        }
+        h1 {
             text-align:center;
         }
         h5 {
@@ -61,9 +64,18 @@
                 text-align:center;
             }
         }
+        a {
+            text-decoration:none;
+        }
+        input {
+            font-size:15px;
+        }
     </style>    
 </head>
 <body>
+    <form>
+        <a href="index.html"><input type="button" value="홈으로" onClick="window.home()"></a>
+    </form>
     <h5>예수사랑(Love Jesus) 제 70권 31호</h5>
     <h1>주일 낮 예배</h1>
     <div id="grid">
@@ -159,5 +171,27 @@
             </table>
         </div>
     </div>
+    
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://daegu-suboo-church.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
 </body>
 </html>

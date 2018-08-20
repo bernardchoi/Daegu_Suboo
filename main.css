@@ -15,7 +15,7 @@
             padding:0 4px;
         }
         .column img {
-            margin-top:8px;
+            margin-top:0px;
             vertical-align:middle;
             width:100%;
         }
@@ -80,16 +80,14 @@
                 flex:50%;
                 padding:0 4px;
             }
-            .column img {
-                margin-top:8px;
-                vertical-align:middle;
-                width:100%;
-            }
             .logo h1 {
+                margin-top:10px;
+                margin-bottom:10px;
                 text-align:center;
                 margin-left:0px;
             }
             .logo h4 {
+                margin-top:10px;
                 margin-bottom:10px;
                 margin-left:0px;
                 text-align:center;
@@ -146,17 +144,13 @@
                 flex:50%;
                 padding:0 4px;
             }
-            .column img {
-                margin-top:8px;
-                vertical-align:middle;
-                width:100%;
-            }
             .logo h1 {
                 font-size:25px;
                 text-align:center;
                 margin-left:0px;
             }
             .logo h4 {
+                margin-top:10px;
                 margin-bottom:10px;
                 margin-left:0px;
                 text-align:center;
@@ -206,11 +200,6 @@
             body {
                 margin:0px;
                 font-family:Helvetica;
-            }
-            .column img {
-                margin-top:8px;
-                vertical-align:middle;
-                width:100%;
             }
             .logo h1 {
                 font-size:20px;
@@ -267,11 +256,6 @@
                 margin:0px;
                 font-family:Helvetica;
             }
-            .column img {
-                margin-top:8px;
-                vertical-align:middle;
-                width:100%;
-            }
             .logo h1 {
                 font-size:20px;
                 text-align:center;
@@ -326,11 +310,6 @@
             body {
                 margin:0px;
                 font-family:Helvetica;
-            }
-            .column img {
-                margin-top:8px;
-                vertical-align:middle;
-                width:100%;
             }
             .logo h1 {
                 font-size:15px;

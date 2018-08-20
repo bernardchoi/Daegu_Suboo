@@ -64,18 +64,18 @@
                 text-align:center;
             }
         }
-        a {
-            text-decoration:none;
-        }
-        input {
-            font-size:15px;
+        #nav img {
+            width:25px;
+            height:25px;
+            padding-left:10px;
         }
     </style>    
 </head>
 <body>
-    <form>
-        <a href="index.html"><input type="button" value="홈으로" onClick="window.home()"></a>
-        <a href="2.html"><input type="button" value="다음 페이지" onClick="window.forward()"></a>
+    <form id="nav">
+        <a href="index.html"><img src="home.png" onClick="window.home()"></a>
+        <a href="index.html"><img src="back.png" onClick="window.back()"></a>
+        <a href="2.html"><img src="forward.png" onClick="window.forward()"></a>
     </form>
     <h5>예수사랑(Love Jesus) 제 70권 31호</h5>
     <h1>주일 낮 예배</h1>

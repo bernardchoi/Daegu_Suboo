@@ -24,8 +24,10 @@
             margin-top:5px;
             text-align:center;
         }
-        a {
-            text-decoration:none;
+        #nav img {
+            width:25px;
+            height:25px;
+            padding-left:10px;
         }
         input {
             font-size:15px;
@@ -33,10 +35,10 @@
     </style>
 </head>
 <body>
-    <form>
-        <a href="index.html"><input type="button" value="홈으로" onClick="window.home()"></a>
-        <a href="1.html"><input type="button" value="이전 페이지" onClick="window.back()"></a>
-        <a href="3.html"><input type="button" value="다음 페이지" onClick="window.forward()"></a>
+    <form id="nav">
+        <a href="index.html"><img src="home.png" onClick="window.home()"></a>
+        <a href="1.html"><img src="back.png" onClick="window.back()"></a>
+        <a href="3.html"><img src="forward.png" onClick="window.forward()"></a>
     </form>
     <p><h5>교회사랑(Love Church)<br>2018년 8월 5일</h5></p>
     <h1>주일찬양예배</h1>

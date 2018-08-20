@@ -130,8 +130,8 @@
                 font-family:Helvetica;
             }
         }
-/* For 800px */
-        @media(max-width:800px) {
+/* For 720px */
+        @media(max-width:720px) {
             * {
             box-sizing:border-box;
             }
@@ -140,9 +140,7 @@
                 font-family:Helvetica;
             }
             .row {
-                display:flex;
-                flex-wrap:wrap;
-                padding: 0 4px;
+                display:block;
             }
             .column {
                 flex:50%;
@@ -166,7 +164,7 @@
             .logo img {
                 width:350px;
                 height:auto;
-                margin-left:225px;
+                margin-left:195px;
             }
             ul {
                 font-size:15px;
@@ -194,7 +192,7 @@
                 text-decoration:none;
                 color:white;
                 display:block;
-                width:400px;
+                width:360px;
                 font-size:16px;
                 font-weight:bold;
                 font-family:Helvetica;

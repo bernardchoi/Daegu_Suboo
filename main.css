@@ -191,11 +191,12 @@
                 margin-top:0px;
             }
             .logo h1 {
-                font-size:20px;
+                font-size:22px;
                 text-align:center;
                 background-color:forestgreen;
                 color:white;
-                line-height:50px;
+                line-height:60px;
+                margin-bottom:0px;
             }
             .logo img {
                 width:100%;
@@ -248,7 +249,7 @@
                 text-align:center;
                 background-color:forestgreen;
                 color:white;
-                line-height:50px;
+                line-height:60px;
             }
             .kakao img {
                 width:100%;
@@ -302,7 +303,7 @@
                 text-align:center;
                 background-color:forestgreen;
                 color:white;
-                line-height:50px;
+                line-height:60px;
             }
             .kakao img {
                 width:100%;
@@ -356,7 +357,7 @@
                 text-align:center;
                 background-color:forestgreen;
                 color:white;
-                line-height:50px;
+                line-height:60px;
             }
             .kakao img {
                 width:100%;

@@ -28,6 +28,12 @@
             text-align:left;
             margin-left:40px;
         }
+        .kakao img {
+            width:350px;
+            height:50px;
+            margin-left:12px;
+            margin-top:12px;
+        }
         h2 {
             text-align:center;
             position:relative;
@@ -65,13 +71,6 @@
         }
 /* For 960px */
         @media(max-width:960px) {
-            * {
-            box-sizing:border-box;
-            }
-            body {
-                margin:0px;
-                font-family:Helvetica;
-            }
             .row {
                 display:flex;
                 flex-wrap:wrap;
@@ -115,34 +114,18 @@
                 width:100%;
             }
             #topMenu ul li {
-                list-style:none;
-                color:white;
-                background-color:navy;
                 float:left;
                 line-height:50px;
-                vertical-align:middle;
-                text-align:center;
                 padding:0px;
             }
             #topMenu .menuLink {
-                text-decoration:none;
-                color:white;
                 display:block;
                 width:319px;
                 font-size:16px;
-                font-weight:bold;
-                font-family:Helvetica;
             }
         }
 /* For 720px */
         @media(max-width:720px) {
-            * {
-            box-sizing:border-box;
-            }
-            body {
-                margin:0px;
-                font-family:Helvetica;
-            }
             .row {
                 display:block;
             }
@@ -184,42 +167,35 @@
                 width:100%;
             }
             #topMenu ul li {
-                list-style:none;
-                color:white;
-                background-color:navy;
                 float:left;
                 line-height:50px;
-                vertical-align:middle;
-                text-align:center;
                 padding:0px;
             }
             #topMenu .menuLink {
-                text-decoration:none;
-                color:white;
                 display:block;
                 width:360px;
                 font-size:16px;
-                font-weight:bold;
-                font-family:Helvetica;
             }
         }
 /* iPhone Plus 해상도 */
         @media(max-width:414px) {
-            * {
-            box-sizing:border-box;
-            }
-            body {
-                margin:0px;
-                font-family:Helvetica;
-            }
             .column img {
                 margin-top:5px;
                 vertical-align:middle;
                 width:100%;
             }
+            .kakao img {
+                width:100%;
+                height:100%;
+                margin-left:0px;
+                margin-top:0px;
+            }
             .logo h1 {
                 font-size:20px;
                 text-align:center;
+                background-color:forestgreen;
+                color:white;
+                line-height:50px;
             }
             .logo img {
                 width:100%;
@@ -231,7 +207,8 @@
             }
             h2 {
                 font-size:20px;
-                margin-top:140px;
+                margin-top:150px;
+                margin-bottom:10px;
             }
             .row {
                 display:block;
@@ -254,24 +231,13 @@
                 padding:0px;
             }
             #topMenu .menuLink {
-                text-decoration:none;
-                color:white;
                 display:block;
                 width:207px;
                 font-size:14px;
-                font-weight:bold;
-                font-family:Helvetica;
             }
         }
 /* 아이폰 6, 6s, 7, 8 해상도 */
         @media(max-width:375px) {
-            * {
-            box-sizing:border-box;
-            }
-            body {
-                margin:0px;
-                font-family:Helvetica;
-            }
             .column img {
                 margin-top:5px;
                 vertical-align:middle;
@@ -280,6 +246,15 @@
             .logo h1 {
                 font-size:20px;
                 text-align:center;
+                background-color:forestgreen;
+                color:white;
+                line-height:50px;
+            }
+            .kakao img {
+                width:100%;
+                height:100%;
+                margin-left:0px;
+                margin-top:0px;
             }
             .logo img {
                 width:100%;
@@ -291,7 +266,7 @@
             }
             h2 {
                 font-size:20px;
-                margin-top:110px;
+                margin-top:125px;
                 margin-bottom:5px;
             }
             .row {
@@ -305,42 +280,35 @@
                 width:100%;
             }
             #topMenu ul li {
-                list-style:none;
-                color:white;
-                background-color:navy;
                 float:left;
                 line-height:32px;
-                vertical-align:middle;
-                text-align:center;
                 padding:0px;
             }
             #topMenu .menuLink {
-                text-decoration:none;
-                color:white;
                 display:block;
                 width:187px;
                 font-size:12px;
-                font-weight:bold;
-                font-family:Helvetica;
             }
         }
-/* 아이폰 5, 5s, SE 해상도 */
-        @media(max-width:320px) {
-            * {
-                box-sizing:border-box;
-            }
-            body {
-                margin:0px;
-                font-family:Helvetica;
-            }
+/* 갤럭시 시리즈 해상도 */
+        @media(max-width:360px) {
             .column img {
                 margin-top:5px;
                 vertical-align:middle;
                 width:100%;
             }
             .logo h1 {
-                font-size:15px;
+                font-size:20px;
                 text-align:center;
+                background-color:forestgreen;
+                color:white;
+                line-height:50px;
+            }
+            .kakao img {
+                width:100%;
+                height:100%;
+                margin-left:0px;
+                margin-top:0px;
             }
             .logo img {
                 width:100%;
@@ -352,7 +320,8 @@
             }
             h2 {
                 font-size:20px;
-                margin-top:160px;
+                margin-top:135px;
+                margin-bottom:5px;
             }
             .row {
                 display:block;
@@ -365,22 +334,66 @@
                 width:100%;
             }
             #topMenu ul li {
-                list-style:none;
-                color:white;
-                background-color:navy;
                 float:left;
-                line-height:25px;
-                vertical-align:middle;
-                text-align:center;
+                line-height:35px;
                 padding:0px;
             }
             #topMenu .menuLink {
-                text-decoration:none;
+                display:block;
+                width:180px;
+                font-size:12px;
+            }
+        }
+/* 아이폰 5, 5s, SE 해상도 */
+        @media(max-width:320px) {
+            .column img {
+                margin-top:5px;
+                vertical-align:middle;
+                width:100%;
+            }
+            .logo h1 {
+                font-size:17px;
+                text-align:center;
+                background-color:forestgreen;
                 color:white;
+                line-height:50px;
+            }
+            .kakao img {
+                width:100%;
+                height:100%;
+                margin-left:0px;
+                margin-top:0px;
+            }
+            .logo img {
+                width:100%;
+                margin-left:0px;
+            }
+            ul {
+                font-size:15px;
+                padding-left:0px;
+            }
+            h2 {
+                font-size:20px;
+                margin-top:210px;
+            }
+            .row {
+                display:block;
+            }
+            .logo h4 {
+                text-align:center;
+            }
+            #topMenu {
+                height:100%;
+                width:100%;
+            }
+            #topMenu ul li {
+                float:left;
+                line-height:30px;
+                padding:0px;
+            }
+            #topMenu .menuLink {
                 display:block;
                 width:320px;
                 font-size:12px;
-                font-weight:bold;
-                font-family:Helvetica;
             }
         }

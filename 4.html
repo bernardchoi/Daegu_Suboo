@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Daegu Suboo Church</title>
+    <style>
+        * {
+            box-sizing:border-box;
+        }
+        body {
+            margin:0px;
+            font-family:Helvetica;
+        }
+        h1 {
+            text-align:center;
+            margin-bottom:15px;
+            margin-top:15px;
+        }
+        .row {
+            display:flex;
+            flex-wrap:wrap;
+            padding: 0 4px;
+        }
+        .column {
+            flex:50%;
+            padding:0 4px;
+        }
+        .column img {
+            margin-top:5px;
+            vertical-align:middle;
+            width:100%;
+        }
+/* 아이폰 6, 7, 8, Plus 및 갤럭시 시리즈 */
+        @media(max-width:414px) {
+            .row {
+                display:block;
+            }
+            h1 {
+                background-color:navy;
+                color:white;
+                line-height:80px;
+            }
+            h4 {
+                margin-left:0px;
+                text-align:center;
+            }
+        }
+/* 아이폰 5, SE */
+        @media(max-width:320px) {
+            .row {
+                display:block;
+            }
+            h1 {
+                font-size:27px;
+                background-color:navy;
+                color:white;
+                line-height:80px;
+            }
+            h4 {
+                margin-left:0px;
+                text-align:center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h4>교회사랑(Love Church)<br>2018년 8월 5일</h4>
+    <h1>지난주 우리교회에서는</h1>
+    <div class="row">
+        <div class="column">
+        <img src="photo_01.jpg">
+        <img src="photo_02.jpg">
+        <img src="photo_03.jpg">
+        </div>
+        <div class="column">
+        <img src="photo_04.jpg">
+        <img src="photo_05.jpg">
+        <img src="photo_06.jpg">
+        </div>
+    </div>
+</body>
+</html>

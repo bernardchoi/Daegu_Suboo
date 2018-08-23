@@ -97,13 +97,12 @@
                 margin-left:0px;
                 margin-bottom:0px;
             }
-            ul {
-                font-size:15px;
-                padding-left:0px;
-            }
             h2 {
                 font-size:20px;
                 margin-top:15px;
+            }
+            ul {
+                padding-left:0px;
             }
             .row {
                 display:block;
@@ -162,13 +161,12 @@
                 width:100%;
                 margin-left:0px;
             }
-            ul {
-                font-size:15px;
-                padding-left:0px;
-            }
             h2 {
                 font-size:20px;
                 margin-top:10px;
+            }
+            ul {
+                padding-left:0px;
             }
             .row {
                 display:block;
@@ -217,13 +215,12 @@
                 width:100%;
                 margin-left:0px;
             }
-            ul {
-                font-size:15px;
-                padding-left:0px;
-            }
             h2 {
                 font-size:20px;
                 margin-top:15px;
+            }
+            ul {
+                padding-left:0px;
             }
             .row {
                 display:block;
@@ -255,7 +252,7 @@
                 width:100%;
             }
             .logo h1 {
-                font-size:17px;
+                font-size:19px;
                 text-align:center;
                 background-color:forestgreen;
                 color:white;
@@ -272,13 +269,12 @@
                 width:100%;
                 margin-left:0px;
             }
-            ul {
-                font-size:15px;
-                padding-left:0px;
-            }
             h2 {
                 font-size:20px;
                 margin-top:15px;
+            }
+            ul {
+                padding-left:0px;
             }
             .row {
                 display:block;
@@ -299,6 +295,6 @@
             #topMenu .menuLink {
                 display:block;
                 width:320px;
-                font-size:12px;
+                font-size:13px;
             }
         }

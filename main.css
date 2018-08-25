@@ -45,6 +45,27 @@
         ul {
             padding-left:0px;
         }
+        #verse p {
+            margin-top:5px;
+            padding-left:5px;
+            font-size:14px;
+        }
+        #verse h3 {
+            font-size:21px;
+            text-align:center;
+            margin-top:7px;
+            margin-bottom:5px;
+            background-color:darkcyan;
+            color:white;
+            line-height:40px;
+        }
+        #verse img {
+            vertical-align:middle;
+            margin-right:8px;
+            margin-left:0px;
+            width:35px;
+            height:35px;
+        }
         #topMenu {
             height:50px;
             width:100%;

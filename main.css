@@ -212,7 +212,7 @@
             }
         }
 /* 갤럭시 시리즈 해상도 */
-        @media(max-width:340px) {
+        @media(max-width:330px) {
             .column img {
                 margin-top:5px;
                 vertical-align:middle;
@@ -251,18 +251,18 @@
                 margin-left:0px;
             }
             #topMenu {
-                height:105px;
+                height:120px;
                 width:100%;
             }
             #topMenu ul li {
                 float:left;
-                line-height:35px;
+                line-height:40px;
                 padding:0px;
             }
             #topMenu .menuLink {
                 display:block;
-                width:170px;
-                font-size:13px;
+                width:165px;
+                font-size:12px;
             }
         }
 /* 아이폰 5, 5s, SE 해상도 */

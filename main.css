@@ -212,7 +212,7 @@
             }
         }
 /* 갤럭시 시리즈 해상도 */
-        @media(max-width:360px) {
+        @media(max-width:350px) {
             .column img {
                 margin-top:5px;
                 vertical-align:middle;
@@ -261,7 +261,7 @@
             }
             #topMenu .menuLink {
                 display:block;
-                width:180px;
+                width:175px;
                 font-size:13px;
             }
         }

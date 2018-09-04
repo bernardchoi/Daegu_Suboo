@@ -157,7 +157,7 @@
                 font-size:14px;
             }
         }
-/* 아이폰 6, 6s, 7, 8 해상도 */
+/* 갤럭시 S9 시리즈 해상도 */
         @media(max-width:380px) {
             .column img {
                 margin-top:5px;
@@ -262,7 +262,7 @@
             #topMenu .menuLink {
                 display:block;
                 width:187px;
-                font-size:14px;
+                font-size:13px;
             }
         }
 /* 갤럭시 시리즈 해상도 */

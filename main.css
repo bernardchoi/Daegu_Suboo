@@ -106,8 +106,8 @@
             color:black;
             background-color: aliceblue;
         }
-/* iPhone Plus 해상도 */
-        @media(max-width:414px) {
+/* iPhone Plus, 갤럭시 S9+ 해상도 */
+        @media(min-width:320px) {
             .column img {
                 margin-top:5px;
                 vertical-align:middle;
@@ -166,61 +166,7 @@
             }
             #topMenu .menuLink {
                 display:block;
-                width:207px;
-                font-size:14px;
-            }
-        }
-/* 갤럭시 S9 해상도 */
-        @media(max-width:380px) {
-            .column img {
-                margin-top:5px;
-                vertical-align:middle;
-                width:100%;
-            }
-            .logo h1 {
-                font-size:21px;
-                text-align:center;
-                background-color:forestgreen;
-                color:white;
-                line-height:65px;
-                margin-left:0px;
-            }
-            .kakao img {
-                width:100%;
-                height:100%;
-                margin-left:0px;
-                margin-top:0px;
-            }
-            .logo img {
-                width:100%;
-                margin-left:0px;
-            }
-            h2 {
-                font-size:20px;
-                margin-top:10px;
-            }
-            ul {
-                padding-left:0px;
-            }
-            .row {
-                display:block;
-            }
-            .logo h4 {
-                text-align:center;
-                margin-left:0px;
-            }
-            #topMenu {
-                height:120px;
-                width:100%;
-            }
-            #topMenu ul li {
-                float:left;
-                line-height:40px;
-                padding:0px;
-            }
-            #topMenu .menuLink {
-                display:block;
-                width:190px;
+                width:206px;
                 font-size:14px;
             }
         }

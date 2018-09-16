@@ -1,9 +1,12 @@
         * {
             box-sizing:border-box;
         }
+        @font-face {
+            font-family:IropkeBatangM; src:url('IropkeBatangM.otf');
+        }
         body {
             margin:0px;
-            font-family:Helvetica;
+            font-family:IropkeBatangM;
         }
         .row {
             margin-top:5px;
@@ -99,7 +102,6 @@
             width:240px;
             font-size:16px;
             font-weight:bold;
-            font-family:Helvetica;
             margin:0px;
         }
         #topMenu .menuLink:hover {
